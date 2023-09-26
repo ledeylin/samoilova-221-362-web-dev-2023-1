@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #303030;
+  }
+
+  .menu-main-h1 {
+    width: 255px;
+    margin: 0 auto 8px;
+    font-family: 'Lora', serif;
+    font-size: 90px;
+    line-height: 64px;
+  }
+
+  h1 {
+    line-height: 40px;
+  }
+
+  h2 {
+    line-height: 30px;
+  }
+
+  .menu-main {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:#303030;
+    list-style: none;
+    text-align: center;
+  }
+
+  .menu-main li {
+    display: inline-block;
+  }
+
+  .menu-main a {
+    font-family: 'Lora', serif;
+    padding: 10px;
+    padding-top: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 	#A52A2A 0 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .site-header {
+    height: 260px;
+    padding-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    text-shadow: 	#A52A2A 0 0 12px;
+    background: #847462 no-repeat center url("img/background.png");
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .main-png {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .head {
+    margin-left: -900px;
+    margin-bottom: 25px;
+  }
+
+  .biography {
+    line-height: 30px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .tier-list {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid #303030;
+    margin: auto;
+  }
+  
+  table tr {
+    border: 3px solid #303030;
+  }
+
+  table td {
+    border: 3px solid #303030;
+    padding: 10px;
+  }
+
+  .tier-S {
+    background-color: #CD5C5C;
+  }
+
+  .tier-A {
+    background-color: #FFA500;
+  }
+
+  .tier-B {
+    background-color: #FFD700;
+  }
+
+  .tier-C {
+    background-color: #F0E68C;
+  }
+
+  .site-footer {
+    min-width: 550px;
+    font-size: 15px;
+    background-color: #303030;
+    color: #ffffff;
+  }
+
+  .site-footer p {
+    display: inline-block;
+    padding: 0 10px;
+    text-shadow: 	#A52A2A 0 0 12px;
+  }
+
+  .titles{
+    width: 140px;
+    float: left;
+  }
+  
+  .feedback-form{
+    margin: auto;
+    margin-bottom: 40px; 
+    width: max-content;
+    background-color: #FFA500;
+    border: 3px solid #303030;
+    border-radius: 25px;
+  }
+
+  .auth-form{
+    margin: auto;
+    margin-top: 220px;
+    margin-bottom: 260px;
+    flex-direction: column;
+    width: max-content;
+    padding: 40px;
+    background-color: #FFA500;
+    border: 3px solid #303030;
+    border-radius: 25px;
+  }
+  
+  .auth-section{
+    background: #303030 no-repeat center url("img/auth-view.jpeg");
+  }

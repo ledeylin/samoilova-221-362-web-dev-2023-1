@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="auth-section">
+    
+    <ul class="menu-main">
+        <li><a href="index.html">ГЛАВНАЯ</a></li>
+        <li><a href="auth.html">АВТОРИЗАЦИЯ</a></li>
+    </ul>
+
+    <section>
+        <form class="auth-form" action="https://httpbin.org/post" method="post">
+            <fieldset>
+                <legend>Авторизация</legend>
+                <p><label for="login">Логин</label><br><input type="text" id="login"></p>
+                <p><label for="password">Пароль</label><br><input type="password" id="password"></p>
+            </fieldset>
+            <p><input type="submit" value="Отправить"></p>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <p>©Riot Games Inc, 2023</p>
+        <p>VALORANT</p>
+    </footer>
+
+  </body>
+
+</html>
